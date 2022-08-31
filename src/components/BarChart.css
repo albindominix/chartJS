@@ -1,0 +1,6 @@
+.chart {
+  /* height: 100vh; */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}

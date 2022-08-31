@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.containerTable {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+th {
+  text-align: center;
+}
+
+thead th {
+  background-color: #55608f;
+}
+.ts-form {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+}
+.ts-form input {
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px;
+  border: transparent;
+}
+.admindiv {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.adminbutton {
+  position: absolute;
+  transform: translate(-30px, 20px);
+  width: fit-content;
+  height: 30px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
